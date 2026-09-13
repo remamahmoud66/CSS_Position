@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 40px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 250px;
+}
+
+.img {
+  width: 400px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  position: absolute;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.img4 {
+  top: 30px;
+  left: 60px;
+  transform: rotate(6deg);
+  z-index: 1;
+}
+
+.img3 {
+  top: 20px;
+  left: 40px;
+  transform: rotate(-4deg);
+  z-index: 2;
+}
+
+.img2 {
+  top: 10px;
+  left: 20px;
+  transform: rotate(3deg);
+  z-index: 3;
+}
+
+.img1 {
+  top: 0;
+  left: 0;
+  transform: rotate(0deg);
+  z-index: 10; 
+}

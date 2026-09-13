@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 80px;
+}
+
+.box {
+  width: 220px;
+  height: 220px;
+  background-color: white;
+  border: 3px solid #3b5bdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+  box-shadow:
+    8px -8px 0 -3px #f6c744,   
+    16px -16px 0 -3px #f0932b,
+    24px -24px 0 -3px #eb4d4b, 
+    32px -32px 0 -3px #38ad63; 
+}

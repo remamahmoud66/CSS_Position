@@ -1,0 +1,43 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 14px;
+  padding: 30px;
+}
+
+.box {
+  width: 280px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.box1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: black;
+}
+
+.box2 {
+  border-style: solid dotted dashed double;
+  border-width: 2px;
+  border-color: black;
+}
+
+.box3 {
+  border-width: 1px;
+  border-style: dotted;
+  border-color: black;
+}
+
+.box4 {
+  border-style: solid;
+}
+
+.box5 {
+  border: 2px solid blue;
+}
+
+.box6 {
+  border: 2px solid black;
+  border-style: dotted;
+  border-color: green;
+}

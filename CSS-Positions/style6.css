@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+.site-title {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.site-title h1 {
+  color: #e63946;
+  font-size: 32px;
+}
+
+.site-title p {
+  font-weight: bold;
+  margin-top: -5px;
+}
+
+
+.navbar {
+  background-color: #6e6e6e;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar .logo {
+  width: 40px;
+  margin-bottom: 8px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-links li {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.hero {
+  position: relative;
+  background-image: url("food-pattern.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 20px 60px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.hero h2 {
+  color: black;
+  background-color: rgba(255,255,255,0.6);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
+.order-btn {
+  display: block;
+  margin: 15px auto;
+  background-color: #f7d94c;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  position: relative;
+  width: 180px;
+  height: 130px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 0 4px black;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .label {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f7d94c;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
+.featured {
+  text-align: center;
+}
+
+.featured h2 {
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px 30px;
+}
+
+.product {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product .label {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f7d94c;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #555;
+}
